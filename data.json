@@ -1,0 +1,54 @@
+{
+  "cats": [
+    {
+      "id": 1,
+      "name": "Whiskers",
+      "breed": "Siamese",
+      "age": 3,
+      "color": "Cream",
+      "favorite_food": "Tuna"
+    },
+    {
+      "id": 2,
+      "name": "Mittens",
+      "breed": "Maine Coon",
+      "age": 5,
+      "color": "Brown",
+      "favorite_food": "Salmon"
+    },
+    {
+      "id": 3,
+      "name": "Shadow",
+      "breed": "British Shorthair",
+      "age": 2,
+      "color": "Grey",
+      "favorite_food": "Chicken"
+    }
+  ],
+  "dogs": [
+    {
+      "id": 1,
+      "name": "Buddy",
+      "breed": "Golden Retriever",
+      "age": 4,
+      "color": "Golden",
+      "favorite_food": "Beef"
+    },
+    {
+      "id": 2,
+      "name": "Max",
+      "breed": "Labrador Retriever",
+      "age": 6,
+      "color": "Black",
+      "favorite_food": "Chicken"
+    },
+    {
+      "id": 3,
+      "name": "Bella",
+      "breed": "German Shepherd",
+      "age": 3,
+      "color": "Tan and Black",
+      "favorite_food": "Lamb"
+    }
+  ]
+}

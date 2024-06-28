@@ -20,8 +20,17 @@ app.get("/about", (req, res) => {
   res.send("about page");
 })  
 
-app.get("/*", (req, res) => {
-  res.send("4040");
+app.get("/dice", (req, res) => {
+  const val =  Math.ceil(Math.random()*6) ;
+  res.render("Dice", {val})
 })  
- 
-//helo
+
+app.get("/ig/:username", (req, res) => {
+  const {username} = req.params;
+  const instaData = require('./data.json');
+  const data = instaData[username];
+  console.log(data)
+  res.render("insta", {data})
+})  
+
+
